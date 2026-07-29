@@ -1,0 +1,65 @@
+{
+  "$type": "GameObject",
+  "DataName": null,
+  "Sprite": null,
+  "Visible": true,
+  "Solid": false,
+  "Depth": 0,
+  "Persistent": true,
+  "ParentObject": null,
+  "MaskSprite": null,
+  "UsesPhysics": false,
+  "IsSensor": false,
+  "CollisionShape": "Circle",
+  "Density": 0.5,
+  "Restitution": 0.1,
+  "Group": 0,
+  "LinearDamping": 0.1,
+  "AngularDamping": 0.1,
+  "Friction": 0.2,
+  "Awake": false,
+  "Kinematic": false,
+  "PhysicsVertices": [],
+  "Events": [
+    {
+      "Category": "Create",
+      "Subtype": "",
+      "CodeEntry": "gml_Object_obj_roomselector_Create_0"
+    },
+    {
+      "Category": "Destroy",
+      "Subtype": "",
+      "CodeEntry": "gml_Object_obj_roomselector_Destroy_0"
+    },
+    {
+      "Category": "Step",
+      "Subtype": "Step",
+      "CodeEntry": "gml_Object_obj_roomselector_Step_0"
+    },
+    {
+      "Category": "Other",
+      "Subtype": "RoomEnd",
+      "CodeEntry": "gml_Object_obj_roomselector_Other_5"
+    },
+    {
+      "Category": "Other",
+      "Subtype": "User0",
+      "CodeEntry": "gml_Object_obj_roomselector_Other_10"
+    },
+    {
+      "Category": "Other",
+      "Subtype": "User1",
+      "CodeEntry": "gml_Object_obj_roomselector_Other_11"
+    },
+    {
+      "Category": "Draw",
+      "Subtype": "DrawGUI",
+      "CodeEntry": "gml_Object_obj_roomselector_Draw_64"
+    },
+    {
+      "Category": "KeyPress",
+      "Subtype": "vk_multiply",
+      "CodeEntry": "gml_Object_obj_roomselector_KeyPress_106"
+    }
+  ]
+}
