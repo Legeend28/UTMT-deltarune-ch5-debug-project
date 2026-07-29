@@ -51,14 +51,13 @@ if (global.fighting == 0)
     if (sunkus_kb_check_pressed(ord("0")))
     {
         scr_losechar();
-        scr_getchar(2);
-        scr_itemget(1);
+        scr_getchar(4);
     }
     
     draw_set_color(c_lime);
     scr_84_set_draw_font("main");
     draw_text(0, 440, string_hash_to_newline("Party:  " + string(global.charname[global.char[0]]) + " " + string(global.charname[global.char[1]]) + " " + string(global.charname[global.char[2]])));
-    draw_text(0, 455, string_hash_to_newline("6: full party. 7:kris only. 8:kris and ralsei"));
+    draw_text(0, 455, string_hash_to_newline("6: fun gang. 7:kris 8:kris and ralsei 9:kris and susie 0:kris and noelle"));
 }
 
 if (!instance_exists(obj_debug_xy))
